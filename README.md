@@ -7,6 +7,7 @@ I build AI agents that run inside real operations, where a wrong message reaches
 | Repo | What it shows |
 |------|---------------|
 | [**agent-ops-contract**](https://github.com/aarongeorge97/agent-ops-contract) | Four tested primitives (policy lint, per-message send gate, preview-only deploy guard, evidence-required handoffs) plus a drop-in `CLAUDE.md` contract and agent templates. Python, stdlib only, 26 tests. |
+| [**fleet-ops-platform**](https://github.com/aarongeorge97/fleet-ops-platform) | A multi-tenant delivery platform: Postgres schema with PostGIS, pgvector and row-level security (12 migrations), an Express API and WebSocket events. Migrated and booted end to end on Postgres 17; four bugs found and fixed while preparing it (see its README). Synthetic data. |
 | [**cc**](https://github.com/aarongeorge97/cc) | A Claude Code-native 20-agent pipeline with manager agents that fail low-quality work and send it back. Includes a side-by-side against a single-prompt baseline. |
 | [**agent-mission-control**](https://github.com/aarongeorge97/agent-mission-control) | A Next.js 14 + TypeScript dashboard for watching a fleet of AI agents: status, token cost, activity feed, pipeline, tasks. Builds clean (14 routes); synthetic data. |
 | [**claude-skill-principal-audit**](https://github.com/aarongeorge97/claude-skill-principal-audit) | A Claude Code skill for four-phase audits where every finding needs a `file:line` citation, with an A–F grade and M0–M3 roadmap. |
